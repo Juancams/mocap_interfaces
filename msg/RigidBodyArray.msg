@@ -4,4 +4,4 @@
 std_msgs/Header header
 
 uint32 seq                              # A continous detection number
-mocap4r2_msgs/RigidBody[] rigid_bodies  # The array of rigid bodies detected
+mocap_interfaces/RigidBody[] rigid_bodies  # The array of rigid bodies detected
