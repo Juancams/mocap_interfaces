@@ -12,6 +12,7 @@ set(msg_files
   "msg/MarkerArray.msg"
   "msg/RigidBody.msg"
   "msg/RigidBodyArray.msg"
+  "srv/CreateRigidBody.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
